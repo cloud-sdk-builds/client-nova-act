@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-nova-act`](https://www.npmjs.com/package/@aws-sdk/client-nova-act/v/3.967.0).
+[`@aws-sdk/client-nova-act`](https://www.npmjs.com/package/@aws-sdk/client-nova-act/v/3.968.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-nova-act@3.967.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-nova-act@3.968.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-RDTzF3tuc958W3/Zit/Yn57kP04chLUzQQO8H5DZhb5KlTy1GMOnfPnTYBabBnv0
+sha384-buX6X9VDSbYIWNPyhbOLfICxcaT/x/S3+T7akEQ382J+N+29+cyNDC47iVwSDyK6
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-nova-act": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-nova-act@3.967.0/index.min.mjs"
+            "@aws-sdk/client-nova-act": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-nova-act@3.968.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-nova-act@3.967.0/index.min.mjs": "sha384-RDTzF3tuc958W3/Zit/Yn57kP04chLUzQQO8H5DZhb5KlTy1GMOnfPnTYBabBnv0"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-nova-act@3.968.0/index.min.mjs": "sha384-buX6X9VDSbYIWNPyhbOLfICxcaT/x/S3+T7akEQ382J+N+29+cyNDC47iVwSDyK6"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-nova-act": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-nova-act@3.967.0/index.min.mjs"
+                        "@aws-sdk/client-nova-act": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-nova-act@3.968.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-nova-act@3.967.0/index.min.mjs": "sha384-RDTzF3tuc958W3/Zit/Yn57kP04chLUzQQO8H5DZhb5KlTy1GMOnfPnTYBabBnv0"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-nova-act@3.968.0/index.min.mjs": "sha384-buX6X9VDSbYIWNPyhbOLfICxcaT/x/S3+T7akEQ382J+N+29+cyNDC47iVwSDyK6"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.967.0`)
+* Always pin to a specific version (`@3.968.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-nova-act/blob/refs/tags/3.967.0/LICENSE
+https://github.com/cloud-sdk-builds/client-nova-act/blob/refs/tags/3.968.0/LICENSE
 ```
 
 ---
